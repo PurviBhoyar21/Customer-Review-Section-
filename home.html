@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CUSTOMER PORTAL PAGE</title>
+        <style>
+            form{padding-top:10px;
+                text-align: center;
+                font-size:15px;
+        }
+           input{width:100px;
+            height:20px;
+            font-size:10px;}
+        .tab{
+            width:80%;
+            border:5px solid darkmagenta;
+        }
+        .utab{
+            font-size:10px;
+            font-style: italic;
+            font-size: large;
+            font-weight:bold;
+        }
+        .itab{
+            font-size:15px;
+            font-style: oblique;
+            font-style: italic;
+            width:max-content;
+        }
+        .head{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+            </style>
+    </head>
+    <body bgcolor="lightgreen">
+        <div align="center">
+            <h1 class="head">REVIEW DROPPING SECTION</h1>
+            <h1 class="head">XYZ product</h1>
+        </div>                
+        <form method="post" action=""connect.php">
+            <table border="2" align="center" class="tab" width="100%">
+                <tr>
+                    <td class="utab">
+                        <label>Enter you Customer id</label></td>
+                        <td><input type="text" name="customerid" class="itab"><br>
+                        </td>
+                    </tr>
+                <tr>
+                    <td class="utab">
+                        <label>Enter your Name</label></td>
+                        <td><input type="text" name="name" class="itab"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="utab">                           
+                            <label>Enter your Age</label></td>
+                            <td><input type="text" name="age"><br></td>
+                        </tr>                      
+                            <tr>
+                                <td class="utab">
+                                    <label>Enter you Gender</label></td>
+                                    <td class="itab"><input type="radio" name="gender" value="Male" class="itab">MALE
+                                    <input type="radio" name="gender" value="Female">FEMALE</td>
+                                    </tr>  
+                               <tr>
+                                    <td class="utab">
+                                        <label>Enter your Email </label></td>
+                                        <td><input type="email" name="email" class="itab"><br></td>
+                                    </tr>
+                                    </td>
+                                        <tr>
+                                            <td class="utab">
+                                                <label>Enter your Contact No. </label></td>
+                                                <td><input type="phone" name="ContactNumber" class="itab"><br></td>
+                                            </tr>
+                                            </td>    
+                                            <tr>
+                                                <td class="utab">
+                                                    <label>Ratings</label></td>
+                                                    <td class="itab"><input type="radio" name="rating" value="1">1
+                                                    <input type="radio" name="rating" value="2">2
+                                                    <input type="radio" name="rating" value="3">3
+                                                    <input type="radio" name="rating" value="4">4
+                                                    <input type="radio" name="rating" value="5">5
+                                                </td>
+                                            </tr>      
+                                        <tr>
+                                            <td class="utab">
+                                                <label>Please drop your feedback </label></td>
+                                                <td><input type="text" name="review" class="itab"></td>
+                                                <br></tr>
+        <tr>
+        <td colspan="2" align="center"><input type="submit" value="Submit" name="save" class="itab" style="font-size:16px"></td>
+        </tr>
+     </table>
+    </form>
+    </body>
+</html>
