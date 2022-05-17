@@ -1,6 +1,5 @@
 <?php
-#$username=filter_input(INPUT_POST,'username');
-#$username=filter_input(INPUT_POST,'password');
+
 $host="localhost://3306";
 $dbusername="root";
 $dbpassword="root";
